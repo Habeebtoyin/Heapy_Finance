@@ -13,19 +13,29 @@ header  .headerNav {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-table {
-    margin-top: 5vh;
-    margin-left: auto;
-    margin-right: auto;
-    border-spacing: 15px;
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
+.table > div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 5px;
+  background: #AF40FF;
+  border-radius: 5px 0px;
+}
 
 /* <button class="button-63" role="button">Button 63</button> */
 
