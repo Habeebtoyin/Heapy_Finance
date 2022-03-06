@@ -14,7 +14,42 @@ function Home () {
             <main className='main'>
                 <button class="button-63" role="button">STAKE</button>
 
-                <table>
+                <div className='table'>
+                    <div className='csb'>
+                        <span>
+                            &#36;5,000,000,000
+                        </span>
+                        <span>
+                            Circulating Supply Burnt
+                        </span>
+                    </div>
+                    <div className='tvl'>
+                        <span>
+                            &#36;5,000,000,000
+                        </span>
+                        <span>
+                            TVL
+                        </span>
+                    </div>
+                    <div className='mc'>
+                        <span>
+                            &#36;5,000,000,000
+                        </span>
+                        <span>
+                            Market Cap
+                        </span>
+                    </div>
+                    <div className='total'>
+                        <span>
+                            &#36;5,000,000,000
+                        </span>
+                        <span>
+                            Total
+                        </span>
+                    </div>
+                </div>
+
+                {/* <table>
                     <tr>
                         <th>Circulating Supply Burnt</th>
                         <th>TVL</th>
@@ -27,7 +62,7 @@ function Home () {
                         <td>&#36;1,000,000,000</td>
                         <td>&#36;1,000,000,000</td>
                     </tr>
-                </table>
+                </table> */}
             </main>
         </div>
     );
