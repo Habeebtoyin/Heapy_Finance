@@ -4,19 +4,19 @@ function Home () {
     return (
         <div className="Home">
             <header>
-                <h1>Heapy Wallet</h1>
+                <h1>Heapy</h1>
                 <div className='headerNav'>
                     <div className='tokenValue'>TS &#36;0.1</div>
-                    <button className='connect'> Connect </button>
+                    <button class="connect" role="button">Connect</button>
                 </div>
             </header>
 
-            <main className='Main'>
-                <button className='stake'>STAKE</button>
+            <main className='main'>
+                <button class="button-63" role="button">STAKE</button>
 
                 <table>
                     <tr>
-                        <th>CSB</th>
+                        <th>Circulating Supply Burnt</th>
                         <th>TVL</th>
                         <th>Market Cap</th>
                         <th>Total</th>
