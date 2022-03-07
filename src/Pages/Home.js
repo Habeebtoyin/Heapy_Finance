@@ -7,7 +7,7 @@ function Home () {
                 <h1>Heapy</h1>
                 <div className='headerNav'>
                     <div className='tokenValue'>TS &#36;0.1</div>
-                    <button class="connect" role="button">Connect</button>
+                    <div className='button'>Connect  Wallet</div>
                 </div>
             </header>
 
@@ -17,15 +17,15 @@ function Home () {
                 <div className='table'>
                     <div className='csb'>
                         <span>
-                            &#36;5,000,000,000
+                            &#36;5,000,000
                         </span>
                         <span>
-                            Circulating Supply Burnt
+                            Circulating Supply 
                         </span>
                     </div>
                     <div className='tvl'>
                         <span>
-                            &#36;5,000,000,000
+                            &#36;1,000,000
                         </span>
                         <span>
                             TVL
@@ -33,7 +33,7 @@ function Home () {
                     </div>
                     <div className='mc'>
                         <span>
-                            &#36;5,000,000,000
+                            &#36;1,000,000
                         </span>
                         <span>
                             Market Cap
@@ -41,10 +41,10 @@ function Home () {
                     </div>
                     <div className='total'>
                         <span>
-                            &#36;5,000,000,000
+                            &#36;1,000,000
                         </span>
                         <span>
-                            Total
+                            Total Burnt
                         </span>
                     </div>
                 </div>

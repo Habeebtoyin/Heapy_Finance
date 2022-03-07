@@ -9,7 +9,8 @@ header {
 header  .headerNav {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
 }
 
 main {
@@ -17,6 +18,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .table {
@@ -34,7 +36,8 @@ main {
   margin-top: 20px;
   padding: 5px;
   background: #AF40FF;
-  border-radius: 5px 0px;
+  border-radius: 10px 10px;
+  align-content: center;
 }
 
 /* <button class="button-63" role="button">Button 63</button> */
@@ -74,4 +77,65 @@ main {
     font-size: 24px;
     min-width: 196px;
   }
+}
+.headerNav > div{
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 2;
+  border-radius: 16px;
+  /*box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;*/
+  box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 16px 0px !important;
+  box-sizing:content-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 70%;
+  min-width: 30px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+/*.connect > div{
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+
+}*/
+.tokenValue{
+  display: flex;
+  font-size: 16px !important;
+  padding: 14px 18px !important;
+  line-height: normal !important;
+  text-align: center !important;
+  background-color: 00e7e7 !important;
+ 
+
+}
+.button{
+  font-size: 16px !important;
 }
