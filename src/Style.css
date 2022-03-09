@@ -37,6 +37,15 @@ main {
   border-radius: 5px 0px;
 }
 
+/* Stake */
+.StakeTable {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
 /* CSS */
 .button-63 {
   align-items: center;

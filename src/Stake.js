@@ -5,6 +5,39 @@ function Stake() {
     return (
         <div className='Stake'>
             <Header />
+            <main>
+                <h1>
+                    Total HEAP Staked <br/>
+                    &#36;1,500,000,000
+                </h1>
+                <div className='StakeTable'>
+                    <div>
+                        <strong>Manual HEAP</strong> <br/>
+                        <span>Earn HEAP, Stake HEAP</span>
+                    </div>
+                    <div>
+                        <strong>HEAP Earned</strong><br/>
+                        0.0 <br/>
+                        0 USB
+                    </div>
+                    <div>
+                        <strong>HEAP Staked</strong> <br/>
+                        0.0 <br/>
+                        0 USB
+                    </div>
+                    <div>
+                        APR <br/>
+                        <b>46.96%</b>
+                    </div>
+                    <div>
+                        Total Staked <br/>
+                        <b>46.96228</b>
+                    </div>
+                    <div>
+                        Details
+                    </div>
+                </div>
+            </main>
         </div>
     );
 }
