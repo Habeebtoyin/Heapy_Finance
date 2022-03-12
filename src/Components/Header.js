@@ -4,7 +4,7 @@ function Header() {
             <h1>Heapy</h1>
             <div className='headerNav'>
                 <div className='tokenValue'>TS &#36;0.1</div>
-                <button class="connect" role="button">Connect</button>
+                <button class="connect">Connect</button>
             </div>
         </header>
     );

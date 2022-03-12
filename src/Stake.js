@@ -37,6 +37,20 @@ function Stake() {
                         Details
                     </div>
                 </div>
+
+                <div className='StakeDetails'>
+                    <div className='CakeEarnedDetails'>
+                        CAKE EARNED <br/>
+                        <div>
+                            <span>0</span>
+                            <button>Collect</button>
+                        </div>
+                    </div>
+                    <div className='StartStakingDetails'>
+                        START STAKING <br/>
+                        <button>Connect Wallet</button>
+                    </div>
+                </div>
             </main>
         </div>
     );

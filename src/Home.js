@@ -6,7 +6,7 @@ function Home () {
         <div className="Home">
             <Header />
             <main className='main'>
-                <button class="button-63" role="button">STAKE</button>
+                <button class="button-63">STAKE</button>
 
                 <div className='table'>
                     <div className='csb'>
