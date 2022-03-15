@@ -55,6 +55,7 @@ main {
   justify-content: space-evenly;
   padding: 10px;
   width: 100%;
+  gap: 40px;
 }
 
 .StakeDetails > div {

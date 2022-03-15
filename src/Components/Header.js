@@ -1,7 +1,8 @@
+import { NavLink } from "react-router-dom";
 function Header() {
     return (
         <header>
-            <h1>Heapy</h1>
+            <NavLink to={'/'}>Heapy</NavLink>
             <div className='headerNav'>
                 <div className='tokenValue'>TS &#36;0.1</div>
                 <button class="connect">Connect</button>

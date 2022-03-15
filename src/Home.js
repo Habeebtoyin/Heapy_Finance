@@ -1,12 +1,16 @@
 import React from 'react';
 import Header from './Components/Header';
+import { NavLink } from "react-router-dom";
+
 
 function Home () {
     return (
         <div className="Home">
             <Header />
             <main className='main'>
-                <button class="button-63">STAKE</button>
+                <button class="button-63">
+                    <NavLink to={'/Stake'}>Stake</NavLink>
+                </button>
 
                 <div className='table'>
                     <div className='csb'>
